@@ -1,7 +1,11 @@
 
 # 🎬 Netflix-Style Recommendation System Demo
 
-## 🧪 Overview
+## 🧠 System Architecture
+
+<p align="center">
+  <img src="ChatGPT Image Apr 15, 2025, 04_03_32 PM.png" alt="System Architecture" width="500"/>
+</p>
 
 This project showcases a real-time, containerized recommendation pipeline using Docker Compose.  
 It integrates services like Spark, Flask API, Redis, Prometheus, and Grafana to simulate a Netflix-style recommendation system.
