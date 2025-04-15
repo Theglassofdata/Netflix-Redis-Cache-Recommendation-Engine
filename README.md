@@ -138,7 +138,9 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 - Username: `admin`
 - Password: `admin`
 
-🖼️ *Screenshot Placeholder: Insert a screenshot of the Grafana dashboard displaying the relevant panels.*
+<p align="center">
+  <img src="grafana.png" alt="System Architecture" width="500"/>
+</p>*
 
 ---
 
