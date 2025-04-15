@@ -1,176 +1,145 @@
 
-# 🎯 Edge-Based Predictive Caching System with Federated Learning  
-## *(Hybrid PySpark + Redis Edition)*
+# 🎬 Netflix-Style Recommendation System Demo
 
-This project simulates a smarter version of Netflix that can guess what you want to watch — and gets it ready before you even click. It’s built step-by-step using open-source tools and explained in a way that even a 10-year-old can understand.
+## 🧪 Overview
 
----
-
-## 🧠 What Are We Building?
-
-A system that:
-- Pretends to be Netflix
-- Learns from fake user behavior
-- Predicts what content people will watch next
-- Stores that content in a fast memory (cache)
-- Shows dashboards of how well the system is performing
+This project showcases a real-time, containerized recommendation pipeline using Docker Compose.  
+It integrates services like Spark, Flask API, Redis, Prometheus, and Grafana to simulate a Netflix-style recommendation system.
 
 ---
 
-## 📦 Tech Stack (All Open Source)
+## ✅ Step 1: Show the System is Running
 
-| Component           | Tool                  |
-|---------------------|------------------------|
-| Data Simulation      | Python, Faker          |
-| Prediction Engine    | PySpark                |
-| Caching              | Redis                  |
-| Monitoring           | Prometheus + Grafana   |
-| Development Environment | VS Code             |
+**🎤 Narration:**  
+“I’ve containerized and automated the entire Netflix-style recommendation pipeline using Docker Compose. Everything you see here is real-time and monitored.”
 
----
-
-## 🛠 Step-by-Step Instructions
-
-### 🧰 Step 1: Set Up Your Environment (Windows or Mac)
-
+**🔧 Command:**
 ```bash
-# Install Python (3.9+)
-# Install pip if not included
-
-# Create a virtual environment
-python -m venv venv
-
-# Activate the environment
-# On Windows:
-venv\Scripts\activate
-# On Mac/Linux:
-source venv/bin/activate
-
-# Install project dependencies
-pip install -r requirements.txt
+docker ps
 ```
 
----
-
-### 📦 Step 2: Install Redis and Apache Spark
-
-- **Redis**: https://redis.io/docs/getting-started/installation/
-- **Apache Spark**: https://spark.apache.org/downloads.html
-
-Or use Docker:
-
+**🔍 Expected Output:**
 ```bash
-# Start Redis with Docker
-docker run -p 6379:6379 redis
+CONTAINER ID   IMAGE            COMMAND                  STATUS          PORTS
+abc123         spark            "/bin/bash"              Up 5 minutes    ...
+def456         jupyter          "start-notebook.sh"      Up 5 minutes    ...
+ghi789         flask-api        "python app.py"          Up 5 minutes    5000/tcp
+jkl012         redis            "docker-entrypoint.sh"   Up 5 minutes    6379/tcp
+mno345         prometheus       "/bin/prometheus"        Up 5 minutes    9090/tcp
+pqr678         grafana          "/run.sh"                Up 5 minutes    3000/tcp
 ```
 
+🖼️ *Screenshot Placeholder: Insert a screenshot of the terminal displaying the `docker ps` output.*
+
 ---
 
-### 📝 Step 3: Simulate Fake Netflix Users
+## ✅ Step 2: Simulate a User Watching a Movie
 
-Create synthetic user logs using Python:
+**🎤 Narration:**  
+“Let’s say user U999 watches C1010, which is, say, Stranger Things. The system automatically predicts and caches the next likely show.”
 
+**🔧 Command:**
 ```bash
-python data/generate_user_logs_spark.py
+curl -X POST http://localhost:5000/watched \
+  -H "Content-Type: application/json" \
+  -d '{"user_id": "U999", "content_id": "C1010"}'
 ```
 
-This generates logs like:
-
+**🔍 Expected Response:**
 ```json
 {
-  "user_id": "U001",
-  "device": "TV",
-  "content_id": "C456",
-  "duration": 42,
-  "timestamp": "2025-04-12 22:30:00"
+  "user_id": "U999",
+  "watched": "C1010",
+  "predicted_next": "C1045"
 }
 ```
 
+🖼️ *Screenshot Placeholder: Insert a screenshot of the terminal displaying the curl response.*
+
 ---
 
-### 🔎 Step 4: Analyze & Predict with PySpark
+## ✅ Step 3: Retrieve Cached Recommendation
 
-Use PySpark to load the logs and run SQL queries to:
-- Group by user
-- Count watch frequency
-- Predict next most likely content
+**🎤 Narration:**  
+“Now, the user comes back to the app and asks: what should I watch next? We instantly return the prediction from Redis.”
 
-Run:
-
+**🔧 Command:**
 ```bash
-spark-submit prediction_engine/features_spark.py
+curl http://localhost:5000/recommend/U999
 ```
+
+**🔍 Expected Response:**
+```json
+{
+  "user_id": "U999",
+  "recommendation": "C1045",
+  "cache_hit": true
+}
+```
+
+🖼️ *Screenshot Placeholder: Insert a screenshot of the terminal displaying the curl response.*
 
 ---
 
-### 💾 Step 5: Cache Predictions in Redis
+## ✅ Step 4: Handle New User Scenario
 
-Use Python to cache predictions:
+**🎤 Narration:**  
+“If the user is new and we don’t have predictions yet, the system handles it gracefully with a fallback.”
 
-```python
-import redis
-r = redis.Redis()
-r.set("user:U001", "C456")
-```
-
-Retrieve cached recommendation:
-
-```python
-r.get("user:U001")
-```
-
----
-
-### 🚚 Step 6: Make Content Delivery Decisions (Live Flow)
-
-In real-time:
-1. Check if the predicted content exists in Redis
-2. If yes → deliver from cache
-3. If no → compute prediction and update Redis
-
----
-
-### 📊 Step 7: Monitor Performance
-
-Use Prometheus + Grafana to track:
-- Cache hits/misses
-- Prediction time
-- User activity metrics
-
-Example metric:
-
-```python
-from prometheus_client import Counter, start_http_server
-hit_counter = Counter("cache_hits", "Redis Cache Hits")
-hit_counter.inc()
-```
-
-Start a basic metrics server:
-
+**🔧 Command:**
 ```bash
-python monitoring/start_metrics_server.py
+curl http://localhost:5000/recommend/U1234
 ```
 
-Access Grafana at: `http://localhost:3000`
+**🔍 Expected Response:**
+```json
+{
+  "user_id": "U1234",
+  "recommendation": "C000",
+  "cache_hit": false,
+  "fallback_used": true
+}
+```
+
+🖼️ *Screenshot Placeholder: Insert a screenshot of the terminal displaying the curl response.*
 
 ---
 
-## 🚀 You Did It!
+## ✅ Step 5: Monitor System Metrics with Prometheus
 
-You’ve just built a simplified but powerful Netflix-style predictive engine with:
-- Fake users
-- Predictive intelligence
-- Redis caching
-- SQL + Spark processing
-- Real-time dashboards
+**🎤 Narration:**  
+“We also expose Prometheus metrics for system health and activity.”
 
-All with free tools, running locally. 💪
+**🔧 Access:**  
+Navigate to [http://localhost:9090](http://localhost:9090)
+
+**🔍 Metrics to Observe:**
+- `cache_hits`
+- `cache_misses`
+- `fallbacks_used`
+
+🖼️ *Screenshot Placeholder: Insert a screenshot of the Prometheus dashboard displaying the relevant metrics.*
 
 ---
 
-## 💡 What’s Next?
+## ✅ Step 6: Visualize Data with Grafana
 
-Start by running the fake user generator and checking the output.  
-Then move on to Spark SQL-based prediction.
+**🎤 Narration:**  
+“Here’s the Grafana dashboard tracking live recommendations, cache efficiency, fallback trends, and more.”
 
-I'll be right here if you need help writing or debugging anything. 🚀
+**🔧 Access:**  
+Navigate to [http://localhost:3000](http://localhost:3000)
+
+**🔐 Login Credentials:**
+- Username: `admin`
+- Password: `admin`
+
+🖼️ *Screenshot Placeholder: Insert a screenshot of the Grafana dashboard displaying the relevant panels.*
+
+---
+
+## 🎁 Bonus Features
+
+- Develop a simple HTML/JS frontend or CLI to simulate the watch and recommend flow.
+- Display Spark job logs within JupyterLab or via Docker logs.
+- Highlight the pipeline's extensibility for federated learning, edge caching, or A/B testing.
