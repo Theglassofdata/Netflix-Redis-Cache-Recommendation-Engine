@@ -18,7 +18,7 @@ A system that:
 | Part | Tool |
 |------|------|
 | Data Simulation | Python, Faker |
-| Prediction Engine | PySpark + SQL |
+| Prediction Engine | PySpark |
 | Caching | Redis |
 | Monitoring | Prometheus + Grafana |
 | Editor | VS Code |
