@@ -1,0 +1,501 @@
+user_id,timestamp,device_type,location,content_id,content_title,genre,content_type,duration_minutes,total_runtime,is_completed,content_rating,language,watch_hour,day_of_week
+U1001,2024-03-27 11:21:41,Tablet,Houston,C328,The Matrix,Sci-Fi,Movie,118,136,False,PG-13,English,11,Wednesday
+U1002,2025-02-27 14:22:08,PC,New York,C130,Breaking Bad,Drama,TV Show,47,47,True,PG,Spanish,14,Thursday
+U1003,2024-06-29 17:06:48,TV,Denver,C303,Coco,Animation,Movie,71,105,False,TV-14,German,17,Saturday
+U1004,2024-06-20 05:18:39,Tablet,New York,C877,Jaws,Thriller,Movie,124,124,True,PG-13,German,5,Thursday
+U1005,2024-09-21 06:43:45,Mobile,Houston,C1080,Planet Earth,Documentary,Documentary,43,60,False,R,English,6,Saturday
+U1006,2024-03-13 00:54:28,TV,Miami,C967,Friends,Comedy,TV Show,20,22,True,R,French,0,Wednesday
+U1007,2024-02-03 17:58:29,TV,Seattle,C180,Jaws,Thriller,Movie,88,124,False,TV-14,French,17,Saturday
+U1008,2024-10-07 21:21:55,Mobile,Los Angeles,C146,Stranger Things,Sci-Fi,TV Show,34,50,False,PG-13,French,21,Monday
+U1009,2024-03-02 23:25:48,TV,Seattle,C384,Inception,Sci-Fi,Movie,148,148,True,TV-MA,French,23,Saturday
+U1010,2024-05-06 08:05:31,Tablet,Houston,C786,The Dark Knight,Action,Movie,126,152,False,R,English,8,Monday
+U1011,2024-05-12 22:15:20,Mobile,Chicago,C573,Coco,Animation,Movie,79,105,False,TV-MA,French,22,Sunday
+U1012,2025-03-08 14:17:44,Tablet,New York,C334,Inception,Sci-Fi,Movie,116,148,False,PG,French,14,Saturday
+U1013,2024-11-07 14:15:13,TV,Houston,C1035,Planet Earth,Documentary,Documentary,57,60,True,TV-14,French,14,Thursday
+U1014,2024-06-14 03:38:45,PC,Boston,C246,Jaws,Thriller,Movie,107,124,False,R,Spanish,3,Friday
+U1015,2024-07-10 13:28:11,Tablet,Atlanta,C538,Coco,Animation,Movie,105,105,True,TV-14,German,13,Wednesday
+U1016,2024-10-08 04:06:10,Mobile,Denver,C605,Inception,Sci-Fi,Movie,147,148,True,PG,English,4,Tuesday
+U1017,2024-03-26 04:00:28,Mobile,Seattle,C710,The Office,Comedy,TV Show,12,22,False,PG,German,4,Tuesday
+U1018,2024-10-23 09:53:56,PC,Denver,C357,Stranger Things,Sci-Fi,TV Show,32,50,False,TV-14,English,9,Wednesday
+U1019,2024-03-29 23:23:57,Tablet,Miami,C214,Coco,Animation,Movie,41,105,False,R,German,23,Friday
+U1020,2024-05-02 20:16:27,TV,Phoenix,C1095,Jaws,Thriller,Movie,124,124,True,TV-14,Spanish,20,Thursday
+U1021,2025-01-29 07:52:20,Tablet,Denver,C723,Breaking Bad,Drama,TV Show,47,47,True,PG-13,Spanish,7,Wednesday
+U1022,2024-10-17 10:15:33,TV,Atlanta,C431,The Office,Comedy,TV Show,22,22,True,TV-MA,English,10,Thursday
+U1023,2024-03-27 21:21:55,Tablet,Houston,C159,The Dark Knight,Action,Movie,152,152,True,PG-13,English,21,Wednesday
+U1024,2024-03-07 12:41:45,TV,Denver,C884,Jaws,Thriller,Movie,124,124,True,PG-13,Spanish,12,Thursday
+U1025,2025-01-04 03:54:20,Mobile,Phoenix,C640,Coco,Animation,Movie,103,105,True,TV-14,German,3,Saturday
+U1026,2024-06-13 12:12:16,Mobile,Phoenix,C508,Coco,Animation,Movie,96,105,True,R,German,12,Thursday
+U1027,2025-02-06 00:18:46,TV,Houston,C330,Jaws,Thriller,Movie,113,124,True,PG,French,0,Thursday
+U1028,2024-01-17 08:06:25,Mobile,Atlanta,C325,Stranger Things,Sci-Fi,TV Show,50,50,True,PG,English,8,Wednesday
+U1029,2024-02-15 17:29:11,TV,New York,C980,Inception,Sci-Fi,Movie,126,148,False,R,English,17,Thursday
+U1030,2025-02-03 08:33:53,Tablet,Boston,C319,Inception,Sci-Fi,Movie,145,148,True,TV-14,Spanish,8,Monday
+U1031,2025-03-19 13:00:53,PC,Houston,C903,Stranger Things,Sci-Fi,TV Show,50,50,True,TV-MA,German,13,Wednesday
+U1032,2024-05-27 21:29:53,TV,Seattle,C462,Breaking Bad,Drama,TV Show,47,47,True,TV-MA,German,21,Monday
+U1033,2024-12-28 17:58:14,TV,New York,C512,The Matrix,Sci-Fi,Movie,136,136,True,R,English,17,Saturday
+U1034,2024-07-12 03:17:24,Mobile,Denver,C559,Inception,Sci-Fi,Movie,130,148,False,PG-13,German,3,Friday
+U1035,2024-05-22 12:27:53,PC,Houston,C995,Planet Earth,Documentary,Documentary,44,60,False,PG,German,12,Wednesday
+U1036,2025-03-03 10:48:26,TV,Denver,C956,Breaking Bad,Drama,TV Show,22,47,False,PG,English,10,Monday
+U1037,2024-07-02 14:25:59,PC,Boston,C592,The Office,Comedy,TV Show,22,22,True,PG-13,German,14,Tuesday
+U1038,2024-02-15 13:02:35,PC,New York,C499,The Office,Comedy,TV Show,20,22,True,R,German,13,Thursday
+U1039,2024-08-09 13:25:51,PC,Chicago,C294,Friends,Comedy,TV Show,14,22,False,R,Spanish,13,Friday
+U1040,2024-02-15 10:12:27,TV,Miami,C158,Stranger Things,Sci-Fi,TV Show,23,50,False,PG,German,10,Thursday
+U1041,2025-01-25 13:48:37,Mobile,New York,C1083,Coco,Animation,Movie,105,105,True,TV-14,English,13,Saturday
+U1042,2024-05-24 08:01:42,TV,Houston,C513,Breaking Bad,Drama,TV Show,39,47,False,PG,Spanish,8,Friday
+U1043,2025-03-25 15:50:00,TV,Atlanta,C183,Stranger Things,Sci-Fi,TV Show,40,50,False,TV-MA,French,15,Tuesday
+U1044,2024-07-21 13:01:29,Tablet,Houston,C371,Inception,Sci-Fi,Movie,148,148,True,TV-MA,Spanish,13,Sunday
+U1045,2024-08-21 00:21:03,Tablet,Los Angeles,C109,Jaws,Thriller,Movie,109,124,False,TV-MA,English,0,Wednesday
+U1046,2024-02-26 21:40:43,Mobile,Denver,C371,Coco,Animation,Movie,93,105,False,PG-13,French,21,Monday
+U1047,2024-02-23 10:21:46,Tablet,Phoenix,C261,Inception,Sci-Fi,Movie,103,148,False,TV-MA,French,10,Friday
+U1048,2025-02-14 20:10:09,Tablet,Los Angeles,C1061,The Matrix,Sci-Fi,Movie,136,136,True,PG-13,French,20,Friday
+U1049,2024-03-30 15:44:46,Mobile,Phoenix,C388,Breaking Bad,Drama,TV Show,47,47,True,TV-14,Spanish,15,Saturday
+U1050,2024-09-23 07:45:06,Tablet,Denver,C600,Inception,Sci-Fi,Movie,143,148,True,R,English,7,Monday
+U1051,2024-03-12 16:34:05,Tablet,New York,C103,Friends,Comedy,TV Show,14,22,False,R,Spanish,16,Tuesday
+U1052,2024-07-22 11:12:00,PC,Denver,C822,The Office,Comedy,TV Show,22,22,True,TV-MA,English,11,Monday
+U1053,2024-03-27 21:28:49,Mobile,Denver,C136,Breaking Bad,Drama,TV Show,16,47,False,R,Spanish,21,Wednesday
+U1054,2024-11-29 19:48:18,TV,Phoenix,C473,The Office,Comedy,TV Show,14,22,False,PG,French,19,Friday
+U1055,2024-06-12 04:06:37,TV,Miami,C898,Inception,Sci-Fi,Movie,148,148,True,TV-14,German,4,Wednesday
+U1056,2024-04-30 01:04:58,Mobile,Chicago,C1002,Inception,Sci-Fi,Movie,113,148,False,TV-MA,English,1,Tuesday
+U1057,2024-05-19 07:31:30,PC,Houston,C373,The Dark Knight,Action,Movie,150,152,True,PG-13,English,7,Sunday
+U1058,2024-10-24 03:05:40,PC,Houston,C304,The Matrix,Sci-Fi,Movie,91,136,False,TV-MA,French,3,Thursday
+U1059,2024-08-25 01:10:12,Mobile,New York,C775,Inception,Sci-Fi,Movie,148,148,True,PG-13,German,1,Sunday
+U1060,2024-09-11 23:14:46,TV,Phoenix,C459,Planet Earth,Documentary,Documentary,34,60,False,TV-14,German,23,Wednesday
+U1061,2025-02-20 11:47:08,TV,Los Angeles,C998,The Dark Knight,Action,Movie,152,152,True,R,Spanish,11,Thursday
+U1062,2025-03-26 22:58:37,TV,Los Angeles,C710,Planet Earth,Documentary,Documentary,31,60,False,TV-MA,French,22,Wednesday
+U1063,2024-08-31 15:22:08,TV,Seattle,C1021,Friends,Comedy,TV Show,17,22,False,TV-14,Spanish,15,Saturday
+U1064,2024-07-16 20:22:18,PC,New York,C632,The Matrix,Sci-Fi,Movie,107,136,False,TV-14,Spanish,20,Tuesday
+U1065,2024-10-09 21:34:49,TV,Miami,C738,Friends,Comedy,TV Show,20,22,True,R,English,21,Wednesday
+U1066,2024-08-21 06:24:46,Tablet,Seattle,C434,Coco,Animation,Movie,104,105,True,TV-MA,French,6,Wednesday
+U1067,2025-03-06 14:59:51,Mobile,Seattle,C780,The Office,Comedy,TV Show,15,22,False,TV-MA,Spanish,14,Thursday
+U1068,2025-03-18 00:53:27,PC,Denver,C953,Planet Earth,Documentary,Documentary,32,60,False,PG,French,0,Tuesday
+U1069,2024-08-10 20:27:33,PC,Atlanta,C721,Inception,Sci-Fi,Movie,126,148,False,R,German,20,Saturday
+U1070,2024-12-09 03:29:17,Mobile,Denver,C584,Jaws,Thriller,Movie,114,124,True,PG-13,English,3,Monday
+U1071,2024-08-08 10:09:43,Tablet,Los Angeles,C938,Coco,Animation,Movie,21,105,False,PG-13,French,10,Thursday
+U1072,2024-06-23 11:36:19,Mobile,New York,C147,Inception,Sci-Fi,Movie,148,148,True,PG-13,German,11,Sunday
+U1073,2024-02-26 13:36:59,PC,Atlanta,C299,Jaws,Thriller,Movie,82,124,False,TV-MA,German,13,Monday
+U1074,2024-11-06 10:04:09,Mobile,New York,C1014,Inception,Sci-Fi,Movie,135,148,True,PG,German,10,Wednesday
+U1075,2024-06-18 23:29:40,PC,New York,C670,The Office,Comedy,TV Show,15,22,False,PG-13,English,23,Tuesday
+U1076,2024-12-20 13:03:54,PC,Denver,C672,The Office,Comedy,TV Show,18,22,False,TV-14,French,13,Friday
+U1077,2024-12-09 18:09:59,PC,Denver,C556,Stranger Things,Sci-Fi,TV Show,8,50,False,PG-13,German,18,Monday
+U1078,2024-12-15 13:54:30,Mobile,Phoenix,C884,Planet Earth,Documentary,Documentary,51,60,False,TV-14,German,13,Sunday
+U1079,2024-07-04 19:51:58,PC,Los Angeles,C830,Planet Earth,Documentary,Documentary,46,60,False,R,Spanish,19,Thursday
+U1080,2024-07-30 01:08:12,Tablet,Denver,C182,The Dark Knight,Action,Movie,152,152,True,PG-13,Spanish,1,Tuesday
+U1081,2024-06-28 15:01:35,Mobile,Houston,C165,Friends,Comedy,TV Show,13,22,False,TV-MA,German,15,Friday
+U1082,2024-09-14 00:04:34,PC,Seattle,C163,Coco,Animation,Movie,97,105,True,PG-13,German,0,Saturday
+U1083,2024-10-29 12:22:26,TV,Atlanta,C489,Stranger Things,Sci-Fi,TV Show,36,50,False,TV-MA,English,12,Tuesday
+U1084,2024-09-30 05:15:33,PC,Seattle,C651,Planet Earth,Documentary,Documentary,60,60,True,TV-14,Spanish,5,Monday
+U1085,2025-01-14 05:15:25,Tablet,Seattle,C597,Inception,Sci-Fi,Movie,148,148,True,PG,German,5,Tuesday
+U1086,2024-09-18 01:54:31,Mobile,Boston,C1041,Friends,Comedy,TV Show,16,22,False,PG-13,English,1,Wednesday
+U1087,2024-11-02 01:04:11,TV,Los Angeles,C758,Stranger Things,Sci-Fi,TV Show,50,50,True,TV-MA,Spanish,1,Saturday
+U1088,2024-12-24 14:40:58,TV,Phoenix,C488,The Office,Comedy,TV Show,11,22,False,R,Spanish,14,Tuesday
+U1089,2024-12-19 04:12:35,Tablet,Seattle,C384,The Dark Knight,Action,Movie,152,152,True,TV-MA,French,4,Thursday
+U1090,2024-03-04 14:50:34,TV,Denver,C153,Jaws,Thriller,Movie,124,124,True,R,Spanish,14,Monday
+U1091,2024-02-23 07:08:20,TV,Houston,C304,The Matrix,Sci-Fi,Movie,102,136,False,PG,Spanish,7,Friday
+U1092,2024-07-04 06:48:00,PC,Los Angeles,C677,The Office,Comedy,TV Show,5,22,False,PG-13,German,6,Thursday
+U1093,2024-07-18 00:43:43,Mobile,Atlanta,C721,The Dark Knight,Action,Movie,66,152,False,PG,Spanish,0,Thursday
+U1094,2024-08-29 14:11:08,TV,Phoenix,C689,Breaking Bad,Drama,TV Show,47,47,True,TV-MA,German,14,Thursday
+U1095,2024-06-03 01:08:06,Mobile,Los Angeles,C813,Breaking Bad,Drama,TV Show,47,47,True,R,English,1,Monday
+U1096,2025-03-15 13:44:50,Tablet,Denver,C538,The Matrix,Sci-Fi,Movie,136,136,True,R,English,13,Saturday
+U1097,2025-01-27 23:47:33,TV,Seattle,C942,The Dark Knight,Action,Movie,152,152,True,TV-MA,English,23,Monday
+U1098,2024-12-02 17:27:42,PC,Chicago,C545,The Dark Knight,Action,Movie,114,152,False,PG-13,French,17,Monday
+U1099,2025-02-22 00:16:12,PC,Seattle,C945,Jaws,Thriller,Movie,124,124,True,TV-14,French,0,Saturday
+U1100,2024-09-07 08:11:34,TV,Phoenix,C1002,Inception,Sci-Fi,Movie,125,148,False,TV-MA,Spanish,8,Saturday
+U1101,2024-12-26 22:47:37,PC,Miami,C129,Stranger Things,Sci-Fi,TV Show,50,50,True,TV-MA,French,22,Thursday
+U1102,2024-05-21 05:44:26,Mobile,Miami,C916,Jaws,Thriller,Movie,121,124,True,R,French,5,Tuesday
+U1103,2024-08-05 05:12:43,Tablet,Denver,C110,Stranger Things,Sci-Fi,TV Show,35,50,False,TV-14,Spanish,5,Monday
+U1104,2024-03-07 11:56:28,PC,Boston,C668,Inception,Sci-Fi,Movie,148,148,True,PG-13,German,11,Thursday
+U1105,2025-01-16 05:34:22,TV,Los Angeles,C401,Jaws,Thriller,Movie,102,124,False,PG-13,German,5,Thursday
+U1106,2024-07-07 23:32:13,Tablet,Boston,C666,Planet Earth,Documentary,Documentary,50,60,False,TV-14,French,23,Sunday
+U1107,2024-11-26 11:57:57,Tablet,Miami,C819,Coco,Animation,Movie,86,105,False,TV-MA,French,11,Tuesday
+U1108,2024-08-26 03:52:00,Mobile,Los Angeles,C838,Planet Earth,Documentary,Documentary,38,60,False,PG-13,French,3,Monday
+U1109,2024-04-02 20:39:42,Mobile,Houston,C321,Coco,Animation,Movie,105,105,True,TV-MA,French,20,Tuesday
+U1110,2025-04-02 22:41:47,Tablet,Los Angeles,C952,Coco,Animation,Movie,65,105,False,PG-13,French,22,Wednesday
+U1111,2024-06-25 16:35:36,Mobile,Phoenix,C114,The Dark Knight,Action,Movie,152,152,True,TV-14,Spanish,16,Tuesday
+U1112,2024-08-01 01:32:01,TV,Denver,C399,The Matrix,Sci-Fi,Movie,136,136,True,PG-13,German,1,Thursday
+U1113,2024-03-20 16:22:20,Tablet,Boston,C590,The Matrix,Sci-Fi,Movie,75,136,False,TV-MA,French,16,Wednesday
+U1114,2024-05-23 04:47:16,Tablet,Boston,C216,The Matrix,Sci-Fi,Movie,96,136,False,PG,German,4,Thursday
+U1115,2025-01-16 22:49:13,TV,Chicago,C252,Breaking Bad,Drama,TV Show,47,47,True,TV-14,French,22,Thursday
+U1116,2024-03-07 03:53:13,TV,Denver,C882,Inception,Sci-Fi,Movie,109,148,False,TV-MA,Spanish,3,Thursday
+U1117,2025-02-09 21:27:29,PC,Boston,C404,Friends,Comedy,TV Show,13,22,False,TV-14,German,21,Sunday
+U1118,2024-08-25 04:42:01,TV,Atlanta,C1083,Stranger Things,Sci-Fi,TV Show,24,50,False,PG,Spanish,4,Sunday
+U1119,2024-06-12 21:47:41,TV,Chicago,C345,Planet Earth,Documentary,Documentary,35,60,False,PG-13,English,21,Wednesday
+U1120,2024-05-01 13:58:46,PC,Boston,C805,The Matrix,Sci-Fi,Movie,98,136,False,TV-14,German,13,Wednesday
+U1121,2024-08-14 05:28:00,Mobile,Phoenix,C823,The Matrix,Sci-Fi,Movie,104,136,False,R,German,5,Wednesday
+U1122,2024-02-25 06:53:12,Tablet,Atlanta,C777,Inception,Sci-Fi,Movie,148,148,True,PG-13,German,6,Sunday
+U1123,2024-03-30 03:35:07,Mobile,Chicago,C1030,Coco,Animation,Movie,89,105,False,R,Spanish,3,Saturday
+U1124,2024-02-25 11:10:33,Mobile,Phoenix,C709,The Matrix,Sci-Fi,Movie,116,136,False,TV-14,French,11,Sunday
+U1125,2024-12-07 02:24:49,PC,Phoenix,C816,Breaking Bad,Drama,TV Show,18,47,False,TV-MA,French,2,Saturday
+U1126,2025-01-23 17:28:39,PC,Boston,C182,Coco,Animation,Movie,32,105,False,TV-14,English,17,Thursday
+U1127,2024-12-01 13:35:52,Tablet,New York,C193,The Dark Knight,Action,Movie,122,152,False,PG-13,English,13,Sunday
+U1128,2024-07-28 08:02:58,TV,Chicago,C581,Stranger Things,Sci-Fi,TV Show,15,50,False,TV-14,German,8,Sunday
+U1129,2024-08-04 01:12:51,PC,Boston,C1092,The Office,Comedy,TV Show,9,22,False,PG,German,1,Sunday
+U1130,2024-09-27 06:27:51,Tablet,Miami,C786,Friends,Comedy,TV Show,22,22,True,PG,Spanish,6,Friday
+U1131,2024-09-13 03:59:09,PC,Phoenix,C778,Friends,Comedy,TV Show,14,22,False,TV-MA,English,3,Friday
+U1132,2024-12-19 06:34:10,Tablet,Phoenix,C431,Breaking Bad,Drama,TV Show,47,47,True,PG,German,6,Thursday
+U1133,2025-02-03 16:46:09,PC,Seattle,C155,The Matrix,Sci-Fi,Movie,19,136,False,PG-13,French,16,Monday
+U1134,2025-01-22 04:35:05,TV,Houston,C373,Jaws,Thriller,Movie,57,124,False,TV-14,Spanish,4,Wednesday
+U1135,2024-08-11 17:15:08,PC,Los Angeles,C129,Jaws,Thriller,Movie,124,124,True,TV-14,Spanish,17,Sunday
+U1136,2024-05-03 00:22:58,TV,Denver,C517,Planet Earth,Documentary,Documentary,60,60,True,PG,Spanish,0,Friday
+U1137,2024-03-29 03:04:06,TV,Chicago,C610,Jaws,Thriller,Movie,124,124,True,R,French,3,Friday
+U1138,2024-11-18 17:18:04,PC,Houston,C567,Jaws,Thriller,Movie,80,124,False,TV-14,Spanish,17,Monday
+U1139,2024-10-24 22:33:41,Mobile,Los Angeles,C382,Inception,Sci-Fi,Movie,148,148,True,TV-MA,French,22,Thursday
+U1140,2025-01-29 08:54:58,TV,Phoenix,C843,Planet Earth,Documentary,Documentary,60,60,True,R,German,8,Wednesday
+U1141,2024-04-25 10:01:09,PC,Miami,C440,Jaws,Thriller,Movie,124,124,True,TV-14,German,10,Thursday
+U1142,2024-12-19 16:14:19,Mobile,Houston,C685,The Dark Knight,Action,Movie,152,152,True,TV-MA,Spanish,16,Thursday
+U1143,2024-11-15 01:24:10,Tablet,Boston,C822,The Matrix,Sci-Fi,Movie,79,136,False,TV-MA,German,1,Friday
+U1144,2024-04-28 03:26:55,TV,Chicago,C614,Jaws,Thriller,Movie,124,124,True,TV-14,French,3,Sunday
+U1145,2024-03-18 22:55:54,TV,Denver,C1032,Jaws,Thriller,Movie,107,124,False,TV-MA,English,22,Monday
+U1146,2024-04-21 23:15:06,Mobile,Los Angeles,C580,Friends,Comedy,TV Show,21,22,True,R,French,23,Sunday
+U1147,2024-11-04 17:37:34,Tablet,Denver,C489,Breaking Bad,Drama,TV Show,47,47,True,R,German,17,Monday
+U1148,2025-02-24 05:16:10,TV,Houston,C746,The Matrix,Sci-Fi,Movie,78,136,False,R,Spanish,5,Monday
+U1149,2024-03-11 04:47:34,TV,Los Angeles,C554,Friends,Comedy,TV Show,14,22,False,PG-13,French,4,Monday
+U1150,2024-01-23 11:36:57,Tablet,New York,C400,The Matrix,Sci-Fi,Movie,136,136,True,R,French,11,Tuesday
+U1151,2024-11-30 12:35:01,Mobile,Denver,C521,The Office,Comedy,TV Show,5,22,False,TV-14,Spanish,12,Saturday
+U1152,2024-05-12 00:43:29,TV,Atlanta,C991,The Office,Comedy,TV Show,22,22,True,TV-MA,Spanish,0,Sunday
+U1153,2025-01-21 13:11:23,Mobile,Houston,C572,Stranger Things,Sci-Fi,TV Show,50,50,True,R,German,13,Tuesday
+U1154,2024-07-17 07:38:05,PC,Phoenix,C793,The Matrix,Sci-Fi,Movie,114,136,False,TV-14,Spanish,7,Wednesday
+U1155,2024-02-27 08:53:08,Tablet,Atlanta,C406,Jaws,Thriller,Movie,123,124,True,TV-MA,French,8,Tuesday
+U1156,2024-12-20 20:02:12,Mobile,Seattle,C973,Planet Earth,Documentary,Documentary,47,60,False,TV-MA,English,20,Friday
+U1157,2024-07-03 05:50:05,Tablet,Atlanta,C402,Friends,Comedy,TV Show,9,22,False,R,English,5,Wednesday
+U1158,2024-11-03 10:21:13,TV,Atlanta,C985,Planet Earth,Documentary,Documentary,60,60,True,PG,German,10,Sunday
+U1159,2024-08-10 07:02:44,Tablet,Houston,C751,Inception,Sci-Fi,Movie,71,148,False,PG-13,French,7,Saturday
+U1160,2024-04-16 05:44:59,TV,Phoenix,C907,Breaking Bad,Drama,TV Show,32,47,False,TV-MA,English,5,Tuesday
+U1161,2025-03-26 04:02:19,Mobile,Los Angeles,C1031,The Dark Knight,Action,Movie,45,152,False,R,French,4,Wednesday
+U1162,2024-11-18 17:32:20,Mobile,Chicago,C905,The Office,Comedy,TV Show,19,22,False,TV-14,French,17,Monday
+U1163,2025-02-16 07:48:19,Tablet,Chicago,C363,Coco,Animation,Movie,103,105,True,TV-MA,French,7,Sunday
+U1164,2024-09-20 02:06:35,PC,Los Angeles,C244,Breaking Bad,Drama,TV Show,43,47,True,PG-13,German,2,Friday
+U1165,2025-03-08 21:03:36,TV,Seattle,C114,The Dark Knight,Action,Movie,152,152,True,R,English,21,Saturday
+U1166,2024-12-19 05:49:33,Tablet,Atlanta,C490,The Dark Knight,Action,Movie,152,152,True,R,English,5,Thursday
+U1167,2024-06-30 14:45:22,TV,Atlanta,C1005,Jaws,Thriller,Movie,124,124,True,TV-14,French,14,Sunday
+U1168,2024-06-20 22:35:01,PC,Phoenix,C764,Breaking Bad,Drama,TV Show,21,47,False,TV-MA,English,22,Thursday
+U1169,2024-04-18 13:37:56,TV,Phoenix,C604,The Matrix,Sci-Fi,Movie,133,136,True,PG,English,13,Thursday
+U1170,2024-07-01 08:59:23,Mobile,Seattle,C564,Coco,Animation,Movie,46,105,False,R,German,8,Monday
+U1171,2025-04-01 04:49:03,PC,Los Angeles,C953,The Office,Comedy,TV Show,5,22,False,TV-MA,German,4,Tuesday
+U1172,2024-08-05 06:44:03,Tablet,Houston,C554,The Matrix,Sci-Fi,Movie,130,136,True,TV-MA,Spanish,6,Monday
+U1173,2024-10-08 16:57:28,Tablet,Denver,C1023,Breaking Bad,Drama,TV Show,43,47,True,R,English,16,Tuesday
+U1174,2024-11-05 05:51:39,Mobile,Los Angeles,C1071,Planet Earth,Documentary,Documentary,60,60,True,TV-MA,English,5,Tuesday
+U1175,2024-06-13 17:56:20,TV,New York,C905,Stranger Things,Sci-Fi,TV Show,50,50,True,R,Spanish,17,Thursday
+U1176,2024-04-07 19:23:28,Mobile,Los Angeles,C949,Stranger Things,Sci-Fi,TV Show,31,50,False,TV-14,Spanish,19,Sunday
+U1177,2025-03-31 10:58:22,Mobile,Miami,C892,Inception,Sci-Fi,Movie,148,148,True,PG-13,English,10,Monday
+U1178,2024-08-03 08:46:39,Mobile,Denver,C356,The Office,Comedy,TV Show,22,22,True,PG-13,English,8,Saturday
+U1179,2024-01-21 00:34:36,TV,Miami,C908,The Office,Comedy,TV Show,20,22,True,PG-13,French,0,Sunday
+U1180,2024-01-13 06:10:50,Tablet,New York,C229,The Office,Comedy,TV Show,9,22,False,TV-MA,English,6,Saturday
+U1181,2024-02-19 08:48:27,PC,Miami,C625,Jaws,Thriller,Movie,39,124,False,TV-14,English,8,Monday
+U1182,2024-12-17 01:59:30,Mobile,Atlanta,C144,Coco,Animation,Movie,105,105,True,TV-14,French,1,Tuesday
+U1183,2024-12-21 18:31:53,TV,Boston,C967,The Matrix,Sci-Fi,Movie,136,136,True,TV-MA,German,18,Saturday
+U1184,2024-03-24 20:33:15,PC,Los Angeles,C1020,Jaws,Thriller,Movie,120,124,True,PG,French,20,Sunday
+U1185,2024-04-25 05:08:34,Mobile,Phoenix,C739,Breaking Bad,Drama,TV Show,12,47,False,TV-14,French,5,Thursday
+U1186,2024-10-22 20:34:21,Tablet,Boston,C617,Stranger Things,Sci-Fi,TV Show,50,50,True,TV-14,German,20,Tuesday
+U1187,2024-03-18 00:49:13,Mobile,Seattle,C562,Breaking Bad,Drama,TV Show,43,47,True,PG-13,German,0,Monday
+U1188,2024-09-20 06:08:35,PC,Seattle,C847,Jaws,Thriller,Movie,116,124,True,PG,French,6,Friday
+U1189,2024-11-27 11:27:27,Tablet,Miami,C1076,The Dark Knight,Action,Movie,75,152,False,PG-13,German,11,Wednesday
+U1190,2024-02-22 03:27:20,TV,Los Angeles,C542,Breaking Bad,Drama,TV Show,46,47,True,PG,French,3,Thursday
+U1191,2024-04-11 01:31:40,TV,Atlanta,C1079,Coco,Animation,Movie,38,105,False,TV-14,French,1,Thursday
+U1192,2024-04-04 22:33:22,Tablet,Seattle,C988,Friends,Comedy,TV Show,9,22,False,PG,French,22,Thursday
+U1193,2025-04-11 08:27:19,Tablet,Los Angeles,C691,Planet Earth,Documentary,Documentary,49,60,False,TV-14,Spanish,8,Friday
+U1194,2024-04-30 04:22:46,Mobile,Los Angeles,C458,Jaws,Thriller,Movie,113,124,True,TV-14,French,4,Tuesday
+U1195,2024-03-30 05:37:02,Mobile,Seattle,C965,Planet Earth,Documentary,Documentary,42,60,False,TV-14,English,5,Saturday
+U1196,2024-07-26 17:35:13,Mobile,Phoenix,C819,The Matrix,Sci-Fi,Movie,102,136,False,R,French,17,Friday
+U1197,2024-09-29 15:33:03,Mobile,Chicago,C679,The Matrix,Sci-Fi,Movie,118,136,False,TV-MA,English,15,Sunday
+U1198,2024-04-20 04:44:06,TV,Denver,C320,The Matrix,Sci-Fi,Movie,136,136,True,TV-MA,German,4,Saturday
+U1199,2024-12-18 08:34:13,Mobile,Miami,C419,The Dark Knight,Action,Movie,56,152,False,R,English,8,Wednesday
+U1200,2024-02-10 20:41:58,Mobile,Atlanta,C150,The Office,Comedy,TV Show,13,22,False,PG,French,20,Saturday
+U1001,2024-12-10 04:13:28,PC,Atlanta,C552,Friends,Comedy,TV Show,21,22,True,TV-MA,French,4,Tuesday
+U1002,2024-06-16 10:29:48,TV,Miami,C540,Coco,Animation,Movie,55,105,False,PG,French,10,Sunday
+U1003,2025-04-05 16:49:25,Tablet,New York,C325,Jaws,Thriller,Movie,71,124,False,TV-MA,English,16,Saturday
+U1004,2024-01-06 23:17:51,Tablet,Houston,C885,Inception,Sci-Fi,Movie,138,148,True,PG-13,French,23,Saturday
+U1005,2024-08-12 19:41:08,TV,New York,C609,The Dark Knight,Action,Movie,108,152,False,TV-MA,Spanish,19,Monday
+U1006,2024-04-10 08:11:45,Mobile,Denver,C672,Friends,Comedy,TV Show,21,22,True,R,English,8,Wednesday
+U1007,2024-11-04 09:56:35,PC,New York,C570,The Matrix,Sci-Fi,Movie,41,136,False,PG,French,9,Monday
+U1008,2025-03-23 04:55:43,PC,Seattle,C396,Friends,Comedy,TV Show,17,22,False,PG,German,4,Sunday
+U1009,2024-01-17 04:47:39,Mobile,Atlanta,C571,The Dark Knight,Action,Movie,152,152,True,R,English,4,Wednesday
+U1010,2024-12-05 04:53:51,Mobile,Seattle,C703,Breaking Bad,Drama,TV Show,44,47,True,TV-MA,English,4,Thursday
+U1011,2024-11-03 09:37:33,Tablet,Houston,C441,Planet Earth,Documentary,Documentary,53,60,False,PG-13,English,9,Sunday
+U1012,2025-01-31 12:05:53,Mobile,Miami,C459,Breaking Bad,Drama,TV Show,29,47,False,PG-13,Spanish,12,Friday
+U1013,2024-03-20 20:24:55,Tablet,Houston,C277,The Office,Comedy,TV Show,5,22,False,TV-14,Spanish,20,Wednesday
+U1014,2024-02-28 12:41:12,PC,Boston,C872,The Office,Comedy,TV Show,5,22,False,TV-14,German,12,Wednesday
+U1015,2025-03-14 10:53:22,Tablet,Miami,C254,Stranger Things,Sci-Fi,TV Show,50,50,True,TV-MA,English,10,Friday
+U1016,2024-12-30 05:19:21,Tablet,Phoenix,C705,Jaws,Thriller,Movie,63,124,False,PG,French,5,Monday
+U1017,2025-01-29 01:26:42,Tablet,Boston,C562,Breaking Bad,Drama,TV Show,39,47,False,PG,English,1,Wednesday
+U1018,2024-10-13 09:46:01,TV,Los Angeles,C729,Planet Earth,Documentary,Documentary,60,60,True,TV-14,German,9,Sunday
+U1019,2024-12-25 09:34:13,TV,Boston,C1030,Stranger Things,Sci-Fi,TV Show,45,50,True,TV-14,Spanish,9,Wednesday
+U1020,2024-09-06 17:41:35,PC,Denver,C254,Stranger Things,Sci-Fi,TV Show,21,50,False,PG,German,17,Friday
+U1021,2024-03-21 09:24:53,TV,Denver,C761,The Dark Knight,Action,Movie,152,152,True,PG-13,English,9,Thursday
+U1022,2024-07-11 10:16:39,PC,Denver,C635,Jaws,Thriller,Movie,114,124,True,TV-14,Spanish,10,Thursday
+U1023,2024-10-09 15:32:58,Tablet,Seattle,C518,The Dark Knight,Action,Movie,77,152,False,R,English,15,Wednesday
+U1024,2024-09-16 22:18:57,Tablet,Los Angeles,C671,Breaking Bad,Drama,TV Show,47,47,True,TV-MA,French,22,Monday
+U1025,2024-07-14 17:32:30,Mobile,Miami,C183,Stranger Things,Sci-Fi,TV Show,24,50,False,TV-14,Spanish,17,Sunday
+U1026,2024-09-28 17:07:55,PC,Chicago,C709,Planet Earth,Documentary,Documentary,60,60,True,PG,French,17,Saturday
+U1027,2025-03-10 03:03:45,Tablet,Chicago,C786,Friends,Comedy,TV Show,19,22,False,TV-14,English,3,Monday
+U1028,2024-11-24 20:52:00,Tablet,New York,C471,Coco,Animation,Movie,54,105,False,R,Spanish,20,Sunday
+U1029,2024-06-15 08:50:26,PC,Houston,C331,The Dark Knight,Action,Movie,83,152,False,PG-13,Spanish,8,Saturday
+U1030,2024-02-29 22:27:41,TV,Denver,C889,Planet Earth,Documentary,Documentary,34,60,False,TV-14,English,22,Thursday
+U1031,2024-09-18 13:44:34,Mobile,Atlanta,C485,Stranger Things,Sci-Fi,TV Show,34,50,False,PG-13,Spanish,13,Wednesday
+U1032,2024-05-20 11:12:47,Mobile,Boston,C144,Stranger Things,Sci-Fi,TV Show,31,50,False,TV-MA,French,11,Monday
+U1033,2024-07-03 11:53:01,Tablet,Boston,C339,Jaws,Thriller,Movie,124,124,True,TV-14,Spanish,11,Wednesday
+U1034,2024-08-28 08:53:58,Mobile,Miami,C794,Jaws,Thriller,Movie,52,124,False,TV-14,German,8,Wednesday
+U1035,2024-12-24 14:20:18,PC,Denver,C640,Planet Earth,Documentary,Documentary,57,60,True,TV-MA,Spanish,14,Tuesday
+U1036,2024-06-04 02:38:07,Mobile,Phoenix,C153,Stranger Things,Sci-Fi,TV Show,50,50,True,TV-MA,French,2,Tuesday
+U1037,2025-03-06 17:23:19,TV,Phoenix,C185,Breaking Bad,Drama,TV Show,5,47,False,PG-13,French,17,Thursday
+U1038,2024-12-14 23:55:02,Mobile,Seattle,C193,Coco,Animation,Movie,105,105,True,PG-13,German,23,Saturday
+U1039,2024-09-28 12:44:17,PC,New York,C505,The Matrix,Sci-Fi,Movie,127,136,True,TV-14,French,12,Saturday
+U1040,2024-07-02 03:13:18,TV,Miami,C329,Friends,Comedy,TV Show,18,22,False,PG,French,3,Tuesday
+U1041,2024-03-17 23:02:35,Mobile,Chicago,C139,The Dark Knight,Action,Movie,152,152,True,R,German,23,Sunday
+U1042,2024-04-17 19:16:59,PC,Atlanta,C105,Jaws,Thriller,Movie,101,124,False,PG,English,19,Wednesday
+U1043,2024-07-17 18:46:04,Mobile,Denver,C1062,Inception,Sci-Fi,Movie,114,148,False,TV-14,German,18,Wednesday
+U1044,2024-03-27 08:40:23,Mobile,Phoenix,C224,Planet Earth,Documentary,Documentary,60,60,True,PG,Spanish,8,Wednesday
+U1045,2024-11-22 02:06:55,PC,Los Angeles,C213,Stranger Things,Sci-Fi,TV Show,46,50,True,TV-MA,English,2,Friday
+U1046,2025-02-04 07:17:59,Mobile,Chicago,C398,Stranger Things,Sci-Fi,TV Show,50,50,True,TV-MA,English,7,Tuesday
+U1047,2024-10-01 00:58:03,PC,Chicago,C780,Inception,Sci-Fi,Movie,37,148,False,PG,French,0,Tuesday
+U1048,2024-02-22 13:38:02,TV,Seattle,C994,Coco,Animation,Movie,53,105,False,TV-MA,English,13,Thursday
+U1049,2024-10-27 11:59:25,Tablet,New York,C465,The Dark Knight,Action,Movie,123,152,False,PG,French,11,Sunday
+U1050,2024-07-06 06:54:46,Tablet,Chicago,C145,Breaking Bad,Drama,TV Show,47,47,True,R,French,6,Saturday
+U1051,2024-05-15 23:53:52,PC,Chicago,C930,Jaws,Thriller,Movie,96,124,False,PG-13,English,23,Wednesday
+U1052,2024-12-21 11:45:56,Tablet,Houston,C144,The Matrix,Sci-Fi,Movie,131,136,True,PG-13,English,11,Saturday
+U1053,2024-09-02 03:07:56,PC,Denver,C584,Planet Earth,Documentary,Documentary,60,60,True,R,English,3,Monday
+U1054,2024-05-28 10:25:34,Tablet,New York,C986,Planet Earth,Documentary,Documentary,60,60,True,R,French,10,Tuesday
+U1055,2024-04-06 16:22:56,PC,Seattle,C861,The Dark Knight,Action,Movie,152,152,True,TV-MA,German,16,Saturday
+U1056,2024-09-20 08:06:02,PC,Boston,C476,The Office,Comedy,TV Show,22,22,True,TV-14,French,8,Friday
+U1057,2024-03-05 03:59:24,TV,Seattle,C716,Friends,Comedy,TV Show,18,22,False,PG-13,French,3,Tuesday
+U1058,2024-09-06 11:48:54,TV,Miami,C776,Breaking Bad,Drama,TV Show,47,47,True,R,French,11,Friday
+U1059,2024-12-12 08:28:20,PC,Chicago,C806,Stranger Things,Sci-Fi,TV Show,18,50,False,TV-MA,French,8,Thursday
+U1060,2024-12-13 07:06:03,Tablet,Atlanta,C545,The Matrix,Sci-Fi,Movie,129,136,True,R,English,7,Friday
+U1061,2024-02-28 06:52:07,Tablet,Denver,C920,Friends,Comedy,TV Show,20,22,True,PG-13,English,6,Wednesday
+U1062,2024-04-20 21:36:07,PC,New York,C229,Stranger Things,Sci-Fi,TV Show,49,50,True,PG,Spanish,21,Saturday
+U1063,2024-10-11 12:51:27,PC,Atlanta,C133,The Dark Knight,Action,Movie,152,152,True,TV-14,Spanish,12,Friday
+U1064,2024-12-15 11:09:52,Tablet,Boston,C881,The Dark Knight,Action,Movie,136,152,False,PG,Spanish,11,Sunday
+U1065,2025-02-15 05:50:51,PC,Miami,C765,The Dark Knight,Action,Movie,119,152,False,R,Spanish,5,Saturday
+U1066,2024-03-29 02:50:07,Mobile,Boston,C630,The Matrix,Sci-Fi,Movie,96,136,False,TV-MA,English,2,Friday
+U1067,2024-07-22 07:52:15,PC,Houston,C726,Planet Earth,Documentary,Documentary,60,60,True,R,German,7,Monday
+U1068,2024-06-04 11:35:41,Mobile,Los Angeles,C562,Breaking Bad,Drama,TV Show,34,47,False,PG-13,German,11,Tuesday
+U1069,2024-03-09 04:32:16,Tablet,Los Angeles,C663,The Dark Knight,Action,Movie,88,152,False,TV-14,French,4,Saturday
+U1070,2024-08-20 23:35:51,Mobile,Miami,C620,The Office,Comedy,TV Show,14,22,False,PG-13,English,23,Tuesday
+U1071,2024-06-05 02:32:44,Mobile,Boston,C126,The Office,Comedy,TV Show,19,22,False,R,French,2,Wednesday
+U1072,2024-12-29 01:04:34,Mobile,Atlanta,C1005,Coco,Animation,Movie,56,105,False,PG,English,1,Sunday
+U1073,2024-08-28 05:35:48,PC,Denver,C520,Friends,Comedy,TV Show,5,22,False,TV-MA,English,5,Wednesday
+U1074,2024-04-07 08:15:37,TV,Boston,C577,The Dark Knight,Action,Movie,152,152,True,TV-14,French,8,Sunday
+U1075,2024-04-09 16:19:49,Mobile,Chicago,C543,Coco,Animation,Movie,63,105,False,TV-14,English,16,Tuesday
+U1076,2024-04-06 10:31:51,Mobile,Phoenix,C268,Coco,Animation,Movie,105,105,True,PG-13,French,10,Saturday
+U1077,2024-06-24 03:04:14,Tablet,Los Angeles,C356,The Dark Knight,Action,Movie,152,152,True,PG-13,French,3,Monday
+U1078,2024-04-07 05:20:36,TV,Denver,C756,Planet Earth,Documentary,Documentary,9,60,False,PG-13,Spanish,5,Sunday
+U1079,2024-05-12 23:24:39,Tablet,Atlanta,C142,Stranger Things,Sci-Fi,TV Show,50,50,True,PG,English,23,Sunday
+U1080,2024-02-05 07:28:09,Tablet,Houston,C885,Stranger Things,Sci-Fi,TV Show,28,50,False,TV-14,German,7,Monday
+U1081,2024-01-24 12:34:12,Tablet,Phoenix,C594,Jaws,Thriller,Movie,104,124,False,PG-13,German,12,Wednesday
+U1082,2024-08-19 00:34:09,TV,New York,C261,Jaws,Thriller,Movie,41,124,False,TV-MA,German,0,Monday
+U1083,2025-01-11 03:05:43,Mobile,Miami,C721,Jaws,Thriller,Movie,96,124,False,PG-13,French,3,Saturday
+U1084,2024-09-05 00:29:20,PC,Chicago,C878,The Dark Knight,Action,Movie,104,152,False,R,English,0,Thursday
+U1085,2024-09-04 20:45:04,PC,Los Angeles,C373,Inception,Sci-Fi,Movie,148,148,True,TV-MA,Spanish,20,Wednesday
+U1086,2024-04-19 10:08:58,TV,Phoenix,C1068,Breaking Bad,Drama,TV Show,15,47,False,TV-MA,German,10,Friday
+U1087,2024-07-11 20:05:36,Tablet,Atlanta,C838,The Office,Comedy,TV Show,21,22,True,R,Spanish,20,Thursday
+U1088,2024-05-03 18:21:28,PC,Boston,C1000,Jaws,Thriller,Movie,98,124,False,R,German,18,Friday
+U1089,2024-01-19 00:02:15,PC,Denver,C568,Breaking Bad,Drama,TV Show,29,47,False,PG-13,Spanish,0,Friday
+U1090,2025-03-29 02:19:20,TV,New York,C388,The Dark Knight,Action,Movie,101,152,False,TV-MA,German,2,Saturday
+U1091,2024-08-09 22:44:09,TV,Los Angeles,C541,Coco,Animation,Movie,90,105,False,PG-13,French,22,Friday
+U1092,2024-10-11 02:35:21,Tablet,New York,C510,Friends,Comedy,TV Show,22,22,True,PG,Spanish,2,Friday
+U1093,2024-10-08 13:55:58,Tablet,Los Angeles,C495,Coco,Animation,Movie,105,105,True,TV-14,German,13,Tuesday
+U1094,2025-03-03 02:04:44,TV,Chicago,C1098,Planet Earth,Documentary,Documentary,60,60,True,PG,German,2,Monday
+U1095,2024-10-16 20:55:16,Tablet,Chicago,C303,The Dark Knight,Action,Movie,134,152,False,TV-14,German,20,Wednesday
+U1096,2025-01-23 10:07:40,TV,New York,C240,The Matrix,Sci-Fi,Movie,122,136,False,R,German,10,Thursday
+U1097,2025-02-07 09:03:48,Mobile,Atlanta,C1014,Jaws,Thriller,Movie,111,124,False,TV-14,Spanish,9,Friday
+U1098,2024-09-11 17:43:35,Tablet,Chicago,C502,Stranger Things,Sci-Fi,TV Show,50,50,True,TV-14,French,17,Wednesday
+U1099,2025-04-06 03:49:47,PC,Atlanta,C406,The Dark Knight,Action,Movie,121,152,False,TV-MA,English,3,Sunday
+U1100,2024-10-13 02:41:14,TV,Seattle,C697,The Dark Knight,Action,Movie,121,152,False,R,English,2,Sunday
+U1101,2025-04-08 15:12:06,Tablet,Atlanta,C691,Jaws,Thriller,Movie,84,124,False,PG-13,English,15,Tuesday
+U1102,2025-03-29 05:39:44,Mobile,Denver,C744,Jaws,Thriller,Movie,124,124,True,TV-14,German,5,Saturday
+U1103,2024-04-24 18:44:19,TV,Atlanta,C1070,Inception,Sci-Fi,Movie,129,148,False,PG,Spanish,18,Wednesday
+U1104,2024-01-15 17:01:05,Tablet,Seattle,C255,Jaws,Thriller,Movie,124,124,True,TV-MA,Spanish,17,Monday
+U1105,2024-11-14 17:59:21,PC,New York,C822,Coco,Animation,Movie,18,105,False,PG-13,Spanish,17,Thursday
+U1106,2025-03-11 15:41:14,PC,Denver,C485,The Dark Knight,Action,Movie,152,152,True,R,Spanish,15,Tuesday
+U1107,2024-12-23 00:44:57,Tablet,Denver,C462,Coco,Animation,Movie,61,105,False,R,German,0,Monday
+U1108,2024-05-29 08:03:49,Tablet,Denver,C405,Inception,Sci-Fi,Movie,115,148,False,PG-13,French,8,Wednesday
+U1109,2024-08-12 11:25:39,PC,Miami,C591,Inception,Sci-Fi,Movie,87,148,False,R,French,11,Monday
+U1110,2024-08-11 12:46:58,PC,Seattle,C938,Breaking Bad,Drama,TV Show,28,47,False,R,Spanish,12,Sunday
+U1111,2024-08-13 14:25:47,Tablet,Los Angeles,C454,The Matrix,Sci-Fi,Movie,78,136,False,TV-MA,French,14,Tuesday
+U1112,2025-01-07 02:41:05,Mobile,Denver,C377,Inception,Sci-Fi,Movie,96,148,False,TV-14,French,2,Tuesday
+U1113,2024-04-16 14:57:12,Mobile,Houston,C151,Breaking Bad,Drama,TV Show,47,47,True,TV-14,Spanish,14,Tuesday
+U1114,2024-06-29 20:23:17,TV,Seattle,C438,The Matrix,Sci-Fi,Movie,136,136,True,TV-MA,English,20,Saturday
+U1115,2024-04-16 18:34:16,Mobile,Seattle,C768,The Matrix,Sci-Fi,Movie,85,136,False,TV-MA,German,18,Tuesday
+U1116,2024-06-03 22:07:43,Tablet,Phoenix,C761,Planet Earth,Documentary,Documentary,60,60,True,PG,English,22,Monday
+U1117,2025-03-21 22:37:17,TV,Chicago,C527,Inception,Sci-Fi,Movie,55,148,False,PG-13,English,22,Friday
+U1118,2024-11-04 08:30:54,Mobile,Phoenix,C997,Jaws,Thriller,Movie,78,124,False,PG,English,8,Monday
+U1119,2024-08-19 18:26:02,TV,Miami,C391,Stranger Things,Sci-Fi,TV Show,22,50,False,TV-MA,German,18,Monday
+U1120,2024-04-14 05:40:05,PC,Phoenix,C297,Coco,Animation,Movie,105,105,True,PG,French,5,Sunday
+U1121,2024-05-06 05:06:45,Tablet,Chicago,C114,Jaws,Thriller,Movie,19,124,False,R,French,5,Monday
+U1122,2025-03-17 00:12:32,Mobile,Atlanta,C976,Inception,Sci-Fi,Movie,81,148,False,TV-MA,German,0,Monday
+U1123,2025-02-04 05:31:39,TV,Seattle,C785,The Dark Knight,Action,Movie,47,152,False,PG,Spanish,5,Tuesday
+U1124,2024-04-19 05:11:43,Tablet,Houston,C106,Jaws,Thriller,Movie,49,124,False,R,German,5,Friday
+U1125,2024-07-01 22:26:03,Tablet,Miami,C409,Jaws,Thriller,Movie,68,124,False,TV-14,English,22,Monday
+U1126,2024-07-22 03:42:14,Mobile,New York,C783,The Dark Knight,Action,Movie,152,152,True,PG,German,3,Monday
+U1127,2024-08-26 07:17:05,PC,Denver,C1045,The Office,Comedy,TV Show,22,22,True,R,English,7,Monday
+U1128,2024-08-17 03:53:58,Mobile,Houston,C1080,The Dark Knight,Action,Movie,152,152,True,PG-13,German,3,Saturday
+U1129,2024-04-28 23:35:09,Tablet,Seattle,C818,Jaws,Thriller,Movie,46,124,False,TV-14,German,23,Sunday
+U1130,2025-02-21 12:03:21,Mobile,Atlanta,C994,Inception,Sci-Fi,Movie,90,148,False,PG,German,12,Friday
+U1131,2025-02-14 05:51:38,TV,Atlanta,C214,The Dark Knight,Action,Movie,45,152,False,PG,Spanish,5,Friday
+U1132,2025-03-20 19:55:58,Mobile,Chicago,C435,Coco,Animation,Movie,63,105,False,TV-14,German,19,Thursday
+U1133,2024-03-31 06:52:15,PC,Los Angeles,C1020,Inception,Sci-Fi,Movie,148,148,True,TV-14,German,6,Sunday
+U1134,2024-02-13 05:07:35,Mobile,Denver,C525,Jaws,Thriller,Movie,53,124,False,TV-MA,English,5,Tuesday
+U1135,2025-03-10 00:44:05,Tablet,New York,C505,Jaws,Thriller,Movie,83,124,False,R,English,0,Monday
+U1136,2024-06-18 05:58:29,TV,New York,C533,Stranger Things,Sci-Fi,TV Show,50,50,True,R,English,5,Tuesday
+U1137,2025-02-24 08:01:07,TV,Boston,C132,The Matrix,Sci-Fi,Movie,136,136,True,R,German,8,Monday
+U1138,2024-05-19 19:05:42,PC,Miami,C1012,The Office,Comedy,TV Show,22,22,True,TV-MA,German,19,Sunday
+U1139,2024-10-20 05:02:31,TV,Denver,C236,Friends,Comedy,TV Show,10,22,False,R,English,5,Sunday
+U1140,2024-05-18 14:59:22,PC,Denver,C230,Coco,Animation,Movie,81,105,False,PG-13,English,14,Saturday
+U1141,2024-01-18 15:49:01,PC,Denver,C534,Planet Earth,Documentary,Documentary,40,60,False,TV-14,German,15,Thursday
+U1142,2024-06-27 09:14:54,PC,Miami,C258,Inception,Sci-Fi,Movie,147,148,True,R,Spanish,9,Thursday
+U1143,2024-03-28 15:34:35,PC,Atlanta,C884,The Matrix,Sci-Fi,Movie,117,136,False,PG,Spanish,15,Thursday
+U1144,2024-06-09 01:38:23,TV,Atlanta,C134,Breaking Bad,Drama,TV Show,35,47,False,TV-MA,English,1,Sunday
+U1145,2024-07-09 02:10:30,PC,Boston,C339,The Matrix,Sci-Fi,Movie,84,136,False,TV-14,Spanish,2,Tuesday
+U1146,2024-02-13 20:11:35,Tablet,Houston,C935,The Office,Comedy,TV Show,13,22,False,TV-14,French,20,Tuesday
+U1147,2025-03-24 12:54:38,Tablet,Houston,C409,Stranger Things,Sci-Fi,TV Show,50,50,True,PG-13,Spanish,12,Monday
+U1148,2024-11-17 05:19:15,Tablet,New York,C670,Planet Earth,Documentary,Documentary,35,60,False,TV-14,Spanish,5,Sunday
+U1149,2024-11-27 19:35:45,PC,New York,C1095,Coco,Animation,Movie,46,105,False,R,German,19,Wednesday
+U1150,2025-02-11 08:42:00,PC,Seattle,C252,The Dark Knight,Action,Movie,152,152,True,R,German,8,Tuesday
+U1151,2024-05-22 19:45:09,PC,Houston,C969,Coco,Animation,Movie,104,105,True,PG-13,French,19,Wednesday
+U1152,2024-04-22 02:54:41,TV,Denver,C522,Jaws,Thriller,Movie,94,124,False,TV-MA,Spanish,2,Monday
+U1153,2024-10-28 16:39:21,Tablet,Houston,C438,Inception,Sci-Fi,Movie,85,148,False,PG,German,16,Monday
+U1154,2024-10-15 05:23:09,Mobile,New York,C374,Breaking Bad,Drama,TV Show,38,47,False,TV-MA,English,5,Tuesday
+U1155,2024-02-26 12:47:53,Mobile,Boston,C313,Inception,Sci-Fi,Movie,114,148,False,R,French,12,Monday
+U1156,2024-01-12 21:50:27,Mobile,Los Angeles,C864,Inception,Sci-Fi,Movie,148,148,True,TV-MA,Spanish,21,Friday
+U1157,2024-06-07 20:24:04,Mobile,Denver,C429,Friends,Comedy,TV Show,16,22,False,R,German,20,Friday
+U1158,2024-12-28 03:32:18,Tablet,Phoenix,C367,Coco,Animation,Movie,105,105,True,R,German,3,Saturday
+U1159,2024-12-27 22:56:43,PC,Miami,C1036,Breaking Bad,Drama,TV Show,11,47,False,PG-13,French,22,Friday
+U1160,2024-08-31 01:17:21,TV,Atlanta,C984,Friends,Comedy,TV Show,9,22,False,PG-13,Spanish,1,Saturday
+U1161,2024-01-13 14:21:39,PC,Phoenix,C256,Planet Earth,Documentary,Documentary,60,60,True,PG-13,French,14,Saturday
+U1162,2024-06-27 15:51:28,Mobile,Boston,C663,Friends,Comedy,TV Show,22,22,True,R,French,15,Thursday
+U1163,2025-01-14 12:33:26,PC,Chicago,C850,Jaws,Thriller,Movie,107,124,False,R,Spanish,12,Tuesday
+U1164,2024-04-18 17:00:57,PC,Chicago,C1038,Coco,Animation,Movie,104,105,True,TV-14,English,17,Thursday
+U1165,2025-02-10 23:01:54,TV,New York,C882,The Matrix,Sci-Fi,Movie,136,136,True,PG,German,23,Monday
+U1166,2024-04-16 19:01:40,TV,Chicago,C109,Inception,Sci-Fi,Movie,148,148,True,PG-13,German,19,Tuesday
+U1167,2024-10-16 20:57:54,PC,Boston,C116,The Matrix,Sci-Fi,Movie,72,136,False,PG,German,20,Wednesday
+U1168,2024-01-10 04:55:05,Tablet,Denver,C393,The Matrix,Sci-Fi,Movie,136,136,True,PG,German,4,Wednesday
+U1169,2024-05-19 05:46:34,TV,Denver,C252,Breaking Bad,Drama,TV Show,30,47,False,PG-13,Spanish,5,Sunday
+U1170,2025-02-12 21:51:03,Tablet,Phoenix,C914,Planet Earth,Documentary,Documentary,50,60,False,TV-MA,English,21,Wednesday
+U1171,2024-10-16 18:11:07,PC,Atlanta,C349,Friends,Comedy,TV Show,19,22,False,PG-13,French,18,Wednesday
+U1172,2024-03-03 14:48:29,TV,Seattle,C488,The Matrix,Sci-Fi,Movie,136,136,True,TV-MA,German,14,Sunday
+U1173,2024-02-13 14:03:29,Mobile,Los Angeles,C611,The Matrix,Sci-Fi,Movie,94,136,False,TV-MA,French,14,Tuesday
+U1174,2025-03-15 12:19:55,TV,Houston,C316,Breaking Bad,Drama,TV Show,47,47,True,TV-14,German,12,Saturday
+U1175,2024-07-29 13:34:41,TV,Phoenix,C1020,The Matrix,Sci-Fi,Movie,135,136,True,TV-14,English,13,Monday
+U1176,2024-05-19 07:24:36,TV,Houston,C701,The Dark Knight,Action,Movie,152,152,True,PG-13,German,7,Sunday
+U1177,2024-02-29 18:13:07,Mobile,Atlanta,C346,Planet Earth,Documentary,Documentary,55,60,True,TV-14,German,18,Thursday
+U1178,2025-02-23 20:48:50,PC,Chicago,C909,The Dark Knight,Action,Movie,140,152,True,PG,French,20,Sunday
+U1179,2024-02-11 16:58:26,PC,Houston,C958,Breaking Bad,Drama,TV Show,47,47,True,PG,French,16,Sunday
+U1180,2025-04-07 14:57:00,Tablet,New York,C749,Friends,Comedy,TV Show,22,22,True,R,German,14,Monday
+U1181,2025-01-16 01:30:40,Tablet,Denver,C1063,Inception,Sci-Fi,Movie,143,148,True,TV-MA,German,1,Thursday
+U1182,2024-05-24 06:24:15,PC,Los Angeles,C890,Stranger Things,Sci-Fi,TV Show,50,50,True,TV-14,French,6,Friday
+U1183,2024-07-10 10:09:24,TV,Phoenix,C257,Breaking Bad,Drama,TV Show,43,47,True,TV-MA,Spanish,10,Wednesday
+U1184,2024-10-29 15:04:48,Tablet,Los Angeles,C193,The Dark Knight,Action,Movie,99,152,False,PG,French,15,Tuesday
+U1185,2024-12-11 10:28:38,Tablet,Los Angeles,C235,The Dark Knight,Action,Movie,141,152,True,PG,Spanish,10,Wednesday
+U1186,2024-11-30 18:02:25,PC,Los Angeles,C126,Jaws,Thriller,Movie,124,124,True,PG,French,18,Saturday
+U1187,2025-03-06 11:24:21,Tablet,Seattle,C112,Breaking Bad,Drama,TV Show,47,47,True,R,German,11,Thursday
+U1188,2024-10-28 05:06:27,Mobile,Atlanta,C633,Breaking Bad,Drama,TV Show,45,47,True,PG-13,German,5,Monday
+U1189,2024-05-11 15:44:29,Tablet,Phoenix,C374,The Office,Comedy,TV Show,22,22,True,TV-MA,Spanish,15,Saturday
+U1190,2024-02-19 03:23:06,PC,Phoenix,C531,The Office,Comedy,TV Show,19,22,False,R,German,3,Monday
+U1191,2024-02-29 17:55:05,Tablet,Houston,C838,The Dark Knight,Action,Movie,148,152,True,TV-MA,Spanish,17,Thursday
+U1192,2024-12-21 15:09:34,Mobile,Phoenix,C106,Breaking Bad,Drama,TV Show,45,47,True,TV-MA,French,15,Saturday
+U1193,2024-10-22 01:39:43,PC,Miami,C540,The Dark Knight,Action,Movie,88,152,False,TV-14,Spanish,1,Tuesday
+U1194,2024-08-21 08:31:10,Mobile,Boston,C421,The Dark Knight,Action,Movie,69,152,False,PG-13,German,8,Wednesday
+U1195,2024-09-04 21:09:26,PC,Atlanta,C900,Planet Earth,Documentary,Documentary,41,60,False,PG-13,French,21,Wednesday
+U1196,2024-10-19 02:10:44,PC,Miami,C216,Planet Earth,Documentary,Documentary,52,60,False,TV-14,Spanish,2,Saturday
+U1197,2025-04-04 23:54:43,Mobile,Denver,C127,Coco,Animation,Movie,105,105,True,TV-MA,Spanish,23,Friday
+U1198,2024-12-06 13:23:33,TV,Seattle,C789,Planet Earth,Documentary,Documentary,37,60,False,TV-MA,Spanish,13,Friday
+U1199,2024-08-23 05:12:34,Tablet,Chicago,C832,Inception,Sci-Fi,Movie,142,148,True,TV-MA,German,5,Friday
+U1200,2024-02-27 10:48:36,PC,Atlanta,C510,Jaws,Thriller,Movie,124,124,True,TV-14,German,10,Tuesday
+U1001,2025-02-26 06:16:52,Tablet,Denver,C708,The Matrix,Sci-Fi,Movie,98,136,False,PG,English,6,Wednesday
+U1002,2024-07-11 19:21:38,Mobile,Atlanta,C145,The Dark Knight,Action,Movie,113,152,False,TV-14,German,19,Thursday
+U1003,2024-09-14 13:24:37,TV,New York,C200,Friends,Comedy,TV Show,16,22,False,R,Spanish,13,Saturday
+U1004,2025-01-31 15:41:42,Mobile,Boston,C483,Coco,Animation,Movie,105,105,True,TV-MA,German,15,Friday
+U1005,2025-04-02 04:06:43,Mobile,Miami,C125,Coco,Animation,Movie,105,105,True,TV-MA,English,4,Wednesday
+U1006,2024-08-17 11:15:20,TV,Los Angeles,C951,Friends,Comedy,TV Show,16,22,False,PG-13,French,11,Saturday
+U1007,2024-08-30 06:03:26,PC,Houston,C633,The Dark Knight,Action,Movie,152,152,True,TV-MA,French,6,Friday
+U1008,2025-01-04 20:18:46,PC,Boston,C426,Breaking Bad,Drama,TV Show,32,47,False,PG,French,20,Saturday
+U1009,2024-02-04 16:57:08,TV,Miami,C763,Breaking Bad,Drama,TV Show,43,47,True,PG,Spanish,16,Sunday
+U1010,2024-07-08 10:52:00,Mobile,Denver,C263,Coco,Animation,Movie,72,105,False,R,German,10,Monday
+U1011,2024-12-24 21:18:49,PC,Chicago,C290,Inception,Sci-Fi,Movie,143,148,True,TV-MA,German,21,Tuesday
+U1012,2024-01-23 16:11:00,Mobile,Boston,C706,Stranger Things,Sci-Fi,TV Show,36,50,False,TV-MA,German,16,Tuesday
+U1013,2024-01-04 10:57:17,Mobile,Phoenix,C870,Inception,Sci-Fi,Movie,115,148,False,PG,English,10,Thursday
+U1014,2025-02-21 00:20:11,Tablet,Miami,C301,The Office,Comedy,TV Show,22,22,True,TV-MA,English,0,Friday
+U1015,2024-07-22 18:37:18,Tablet,Atlanta,C497,Jaws,Thriller,Movie,74,124,False,TV-14,German,18,Monday
+U1016,2025-03-31 22:33:39,Tablet,Miami,C965,Breaking Bad,Drama,TV Show,35,47,False,TV-MA,Spanish,22,Monday
+U1017,2024-08-19 00:46:24,TV,Chicago,C420,Stranger Things,Sci-Fi,TV Show,50,50,True,PG,Spanish,0,Monday
+U1018,2024-08-25 04:41:45,Mobile,Miami,C810,Breaking Bad,Drama,TV Show,39,47,False,PG-13,German,4,Sunday
+U1019,2024-11-20 20:32:31,Mobile,Atlanta,C492,Stranger Things,Sci-Fi,TV Show,26,50,False,TV-MA,Spanish,20,Wednesday
+U1020,2025-01-13 00:11:25,Mobile,Denver,C270,Coco,Animation,Movie,94,105,False,TV-MA,French,0,Monday
+U1021,2024-04-18 23:19:01,Tablet,Boston,C734,The Office,Comedy,TV Show,22,22,True,PG,French,23,Thursday
+U1022,2024-01-08 10:38:53,Mobile,Houston,C934,Jaws,Thriller,Movie,50,124,False,TV-MA,German,10,Monday
+U1023,2024-11-13 18:49:01,PC,Boston,C600,Jaws,Thriller,Movie,118,124,True,PG-13,English,18,Wednesday
+U1024,2025-03-15 03:46:44,Mobile,Phoenix,C133,The Matrix,Sci-Fi,Movie,136,136,True,R,Spanish,3,Saturday
+U1025,2025-02-21 13:45:03,Mobile,Boston,C679,Planet Earth,Documentary,Documentary,58,60,True,TV-MA,English,13,Friday
+U1026,2025-03-20 20:09:49,Tablet,Denver,C943,Breaking Bad,Drama,TV Show,37,47,False,R,English,20,Thursday
+U1027,2024-12-08 19:40:09,Mobile,Seattle,C204,Coco,Animation,Movie,95,105,True,PG-13,French,19,Sunday
+U1028,2024-01-26 00:49:05,Tablet,Miami,C982,Jaws,Thriller,Movie,124,124,True,PG,German,0,Friday
+U1029,2024-04-01 04:14:02,Mobile,Atlanta,C805,Inception,Sci-Fi,Movie,148,148,True,R,German,4,Monday
+U1030,2024-05-08 22:07:17,Mobile,Houston,C933,Stranger Things,Sci-Fi,TV Show,45,50,True,PG-13,English,22,Wednesday
+U1031,2025-03-18 18:57:21,Tablet,Atlanta,C651,The Dark Knight,Action,Movie,120,152,False,PG-13,French,18,Tuesday
+U1032,2024-08-15 07:06:22,Tablet,Denver,C1021,Planet Earth,Documentary,Documentary,51,60,False,PG,Spanish,7,Thursday
+U1033,2024-11-15 16:42:34,Tablet,Chicago,C818,The Matrix,Sci-Fi,Movie,125,136,True,PG-13,Spanish,16,Friday
+U1034,2024-04-23 14:10:31,Mobile,Seattle,C601,The Dark Knight,Action,Movie,142,152,True,PG-13,French,14,Tuesday
+U1035,2024-11-17 17:42:55,PC,Los Angeles,C748,Friends,Comedy,TV Show,22,22,True,PG,German,17,Sunday
+U1036,2025-02-04 11:43:54,Tablet,Boston,C1073,Planet Earth,Documentary,Documentary,44,60,False,TV-MA,French,11,Tuesday
+U1037,2025-03-28 00:26:15,TV,Boston,C750,The Matrix,Sci-Fi,Movie,99,136,False,R,English,0,Friday
+U1038,2025-02-19 02:23:38,Mobile,Seattle,C944,Friends,Comedy,TV Show,21,22,True,PG-13,German,2,Wednesday
+U1039,2024-07-27 13:53:22,Tablet,Miami,C660,The Dark Knight,Action,Movie,131,152,False,TV-14,Spanish,13,Saturday
+U1040,2025-03-15 17:39:13,Tablet,New York,C147,Jaws,Thriller,Movie,71,124,False,PG,German,17,Saturday
+U1041,2024-01-13 15:30:23,Mobile,Boston,C567,Breaking Bad,Drama,TV Show,47,47,True,PG,German,15,Saturday
+U1042,2024-06-06 03:29:04,Tablet,Chicago,C995,The Office,Comedy,TV Show,21,22,True,R,English,3,Thursday
+U1043,2024-10-06 23:00:09,TV,Miami,C780,Planet Earth,Documentary,Documentary,60,60,True,PG-13,English,23,Sunday
+U1044,2024-11-03 20:20:32,Mobile,Seattle,C771,Planet Earth,Documentary,Documentary,45,60,False,PG,English,20,Sunday
+U1045,2024-01-01 20:15:00,PC,Los Angeles,C235,Inception,Sci-Fi,Movie,148,148,True,TV-14,Spanish,20,Monday
+U1046,2025-02-07 11:08:33,TV,New York,C812,Jaws,Thriller,Movie,93,124,False,R,English,11,Friday
+U1047,2024-11-24 00:30:08,PC,Los Angeles,C334,The Office,Comedy,TV Show,5,22,False,TV-MA,English,0,Sunday
+U1048,2024-03-20 13:22:51,Tablet,Miami,C1002,Breaking Bad,Drama,TV Show,47,47,True,R,Spanish,13,Wednesday
+U1049,2024-10-24 06:26:14,Mobile,Los Angeles,C643,The Office,Comedy,TV Show,18,22,False,TV-14,English,6,Thursday
+U1050,2024-05-07 11:21:15,Tablet,Houston,C743,Jaws,Thriller,Movie,124,124,True,PG-13,German,11,Tuesday
+U1051,2024-12-09 14:37:58,TV,Los Angeles,C243,Inception,Sci-Fi,Movie,92,148,False,PG,German,14,Monday
+U1052,2024-09-30 01:05:57,Tablet,Chicago,C353,Friends,Comedy,TV Show,11,22,False,R,English,1,Monday
+U1053,2024-07-11 18:10:07,Tablet,New York,C968,Coco,Animation,Movie,93,105,False,R,Spanish,18,Thursday
+U1054,2025-02-06 03:32:35,Mobile,Seattle,C402,Stranger Things,Sci-Fi,TV Show,47,50,True,PG,Spanish,3,Thursday
+U1055,2025-01-19 09:22:32,TV,Houston,C611,Friends,Comedy,TV Show,17,22,False,TV-14,English,9,Sunday
+U1056,2025-02-14 07:58:26,Tablet,Miami,C235,The Matrix,Sci-Fi,Movie,136,136,True,TV-MA,German,7,Friday
+U1057,2024-10-10 19:46:55,Mobile,Boston,C1077,Coco,Animation,Movie,47,105,False,PG,English,19,Thursday
+U1058,2025-04-01 05:14:57,TV,Phoenix,C320,Breaking Bad,Drama,TV Show,36,47,False,PG,English,5,Tuesday
+U1059,2024-11-05 02:47:31,Tablet,Denver,C885,Coco,Animation,Movie,97,105,True,TV-MA,German,2,Tuesday
+U1060,2024-11-08 10:59:40,Mobile,Phoenix,C185,Breaking Bad,Drama,TV Show,42,47,False,R,English,10,Friday
+U1061,2025-02-01 03:24:37,Mobile,Denver,C434,Inception,Sci-Fi,Movie,117,148,False,TV-MA,English,3,Saturday
+U1062,2024-08-28 21:58:42,Mobile,New York,C350,Friends,Comedy,TV Show,21,22,True,PG,German,21,Wednesday
+U1063,2024-03-31 02:08:47,TV,Phoenix,C782,Jaws,Thriller,Movie,124,124,True,PG-13,English,2,Sunday
+U1064,2024-01-10 20:05:31,TV,Chicago,C608,The Office,Comedy,TV Show,20,22,True,R,French,20,Wednesday
+U1065,2024-05-09 16:24:54,Mobile,Phoenix,C850,The Dark Knight,Action,Movie,112,152,False,PG,English,16,Thursday
+U1066,2024-09-17 05:03:29,Tablet,Denver,C165,Friends,Comedy,TV Show,16,22,False,R,English,5,Tuesday
+U1067,2025-01-20 08:51:39,Tablet,New York,C611,Jaws,Thriller,Movie,90,124,False,TV-14,Spanish,8,Monday
+U1068,2024-10-12 14:11:49,Tablet,Los Angeles,C1015,The Office,Comedy,TV Show,22,22,True,TV-14,English,14,Saturday
+U1069,2024-06-26 09:46:01,TV,New York,C979,Coco,Animation,Movie,105,105,True,PG,Spanish,9,Wednesday
+U1070,2024-02-05 17:09:28,Tablet,Seattle,C1042,Jaws,Thriller,Movie,102,124,False,PG-13,Spanish,17,Monday
+U1071,2024-01-28 11:13:29,PC,Houston,C429,Coco,Animation,Movie,105,105,True,PG-13,German,11,Sunday
+U1072,2024-09-05 12:01:23,TV,Atlanta,C481,Planet Earth,Documentary,Documentary,60,60,True,PG,English,12,Thursday
+U1073,2024-05-19 07:13:15,TV,Seattle,C170,Inception,Sci-Fi,Movie,70,148,False,TV-MA,French,7,Sunday
+U1074,2024-08-29 07:49:34,TV,Denver,C567,The Dark Knight,Action,Movie,91,152,False,PG,French,7,Thursday
+U1075,2024-06-04 20:46:53,Tablet,Atlanta,C348,Planet Earth,Documentary,Documentary,60,60,True,TV-MA,French,20,Tuesday
+U1076,2025-04-04 13:55:06,Mobile,Denver,C878,Jaws,Thriller,Movie,101,124,False,PG-13,Spanish,13,Friday
+U1077,2024-01-05 22:53:32,TV,Houston,C654,Friends,Comedy,TV Show,18,22,False,R,English,22,Friday
+U1078,2024-09-17 05:10:35,PC,Phoenix,C206,The Matrix,Sci-Fi,Movie,77,136,False,PG-13,Spanish,5,Tuesday
+U1079,2024-11-22 01:56:04,TV,Chicago,C828,Jaws,Thriller,Movie,97,124,False,R,English,1,Friday
+U1080,2024-02-04 02:21:36,PC,Miami,C569,Inception,Sci-Fi,Movie,84,148,False,PG,English,2,Sunday
+U1081,2025-01-27 13:51:23,PC,Los Angeles,C706,The Office,Comedy,TV Show,10,22,False,TV-14,English,13,Monday
+U1082,2024-12-03 20:40:06,Mobile,Phoenix,C367,The Office,Comedy,TV Show,16,22,False,R,German,20,Tuesday
+U1083,2024-09-10 09:46:12,PC,Phoenix,C339,The Dark Knight,Action,Movie,152,152,True,PG,Spanish,9,Tuesday
+U1084,2024-04-15 17:18:31,TV,Chicago,C208,Stranger Things,Sci-Fi,TV Show,50,50,True,PG-13,German,17,Monday
+U1085,2024-12-27 23:53:49,PC,Los Angeles,C648,The Dark Knight,Action,Movie,118,152,False,R,Spanish,23,Friday
+U1086,2024-12-17 00:20:41,PC,Phoenix,C972,Planet Earth,Documentary,Documentary,43,60,False,PG,English,0,Tuesday
+U1087,2024-05-02 10:09:48,TV,Houston,C955,Planet Earth,Documentary,Documentary,37,60,False,R,Spanish,10,Thursday
+U1088,2024-03-11 20:19:54,Tablet,Seattle,C625,Inception,Sci-Fi,Movie,125,148,False,PG,French,20,Monday
+U1089,2024-07-21 01:51:37,TV,Seattle,C975,The Office,Comedy,TV Show,22,22,True,TV-MA,Spanish,1,Sunday
+U1090,2024-03-14 13:48:25,TV,Chicago,C224,Jaws,Thriller,Movie,61,124,False,PG,English,13,Thursday
+U1091,2024-06-21 15:45:04,Mobile,Seattle,C481,The Office,Comedy,TV Show,22,22,True,PG,French,15,Friday
+U1092,2024-02-28 05:51:44,TV,Houston,C1024,The Matrix,Sci-Fi,Movie,136,136,True,TV-MA,Spanish,5,Wednesday
+U1093,2024-03-12 10:36:21,TV,New York,C1064,The Dark Knight,Action,Movie,88,152,False,TV-MA,English,10,Tuesday
+U1094,2024-05-10 11:32:44,PC,Seattle,C608,Stranger Things,Sci-Fi,TV Show,27,50,False,PG,German,11,Friday
+U1095,2024-11-27 09:35:37,Tablet,Houston,C1030,The Office,Comedy,TV Show,5,22,False,PG-13,French,9,Wednesday
+U1096,2024-08-05 08:52:01,Mobile,New York,C728,Jaws,Thriller,Movie,124,124,True,TV-14,Spanish,8,Monday
+U1097,2024-08-17 05:09:32,PC,Denver,C590,Jaws,Thriller,Movie,124,124,True,PG,English,5,Saturday
+U1098,2024-08-05 07:24:08,Mobile,Seattle,C304,Friends,Comedy,TV Show,9,22,False,TV-14,Spanish,7,Monday
+U1099,2025-02-26 06:29:42,PC,Miami,C591,The Matrix,Sci-Fi,Movie,114,136,False,TV-14,German,6,Wednesday
+U1100,2024-09-24 05:15:38,Tablet,Seattle,C376,Stranger Things,Sci-Fi,TV Show,50,50,True,PG-13,English,5,Tuesday
